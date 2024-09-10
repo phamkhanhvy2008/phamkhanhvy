@@ -43,6 +43,7 @@ body{
     border-spacing: 100px;
     border-color: black;
     border-width: thick 10px;
+    font-family: "Courier New", monospace;
 }
 .imag{
     border-style: groove;
