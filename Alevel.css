@@ -1,12 +1,12 @@
 html{
-    background-image: url(1000_F_143134352_oLaa3Dej0MwUnVrPs6GF1uIr2V9jGsWu.jpg);
+    background-image: url(titles.jpeg);
 }
 body{
     border-spacing: 1em 0.5em;
 }
 .tt{
     border-style:double;
-    background-color:rgb(185, 77, 77);
+    background-color:rgb(221, 142, 23);
     height: auto;
     width: 800px;
     align-self: center;
