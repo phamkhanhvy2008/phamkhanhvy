@@ -1,12 +1,16 @@
 html{
-    background-image: url(OIP.jpeg);
-}
+    background-image: url(letskull.gif);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;}
 body{
     border-spacing: 1em 0.5em;
 }
 .tt{
     border-style:double;
-    background-color:rgb(221, 142, 23);
+    background-color:rgb(165, 16, 16);
     height: auto;
     width: 800px;
     align-self: center;
