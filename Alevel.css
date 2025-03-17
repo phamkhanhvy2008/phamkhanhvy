@@ -60,7 +60,7 @@ body{
 }
 
 .rotate-images{
-    transform: rotate(180deg);
+    transform: rotate(90deg);
     border-style: groove;
     border-color: black;
     border-width: 10px;
