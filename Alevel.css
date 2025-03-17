@@ -58,3 +58,14 @@ body{
     height: auto;
     border-spacing: 100px;
 }
+
+.rotate-images{
+  transform: rotate(90deg);
+    border-style: groove;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    border-spacing: 100px;
+}
