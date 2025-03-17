@@ -65,7 +65,8 @@ body{
     border-color: black;
     border-width: 10px;
     border-radius: 10px;
-    width: auto;
     height: auto;
+    width: 800px;
+    align-self: center;
     border-spacing: 100px;
 }
