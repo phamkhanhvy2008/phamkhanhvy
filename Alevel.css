@@ -60,6 +60,7 @@ body{
 }
 
 .rotate-images{
+    display: inline-block;
     transform: rotate(90deg);
     border: 4cm;
     margin: auto;
