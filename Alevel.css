@@ -60,7 +60,6 @@ body{
 }
 
 .rotate-images{
-    display: inline-block;
     transform: rotate(90deg);
     border: 4cm;
     margin: auto;
@@ -68,7 +67,7 @@ body{
     border-color: black;
     border-width: 10px;
     border-radius: 10px;
-    height: auto;
+    height: 1500px;
     width: 800px;
     align-self: center;
     border-spacing: 100px;
