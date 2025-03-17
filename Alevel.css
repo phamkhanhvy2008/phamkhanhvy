@@ -67,8 +67,8 @@ body{
     border-color: black;
     border-width: 10px;
     border-radius: 10px;
-    height: 1500px;
-    width: 800px;
+    height: auto;
+    width: auto;
     align-self: center;
     border-spacing: 100px;
 }
