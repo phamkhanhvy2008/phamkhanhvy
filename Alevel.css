@@ -61,6 +61,8 @@ body{
 
 .rotate-images{
     transform: rotate(90deg);
+    border: 4cm;
+    margin: auto;
     border-style: groove;
     border-color: black;
     border-width: 10px;
