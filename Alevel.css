@@ -1,74 +1,56 @@
-html{
+html {
     background-image: url(02-34-11-741_512.gif);
-    background-size:100%;
+    background-size: cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    height:100%;
-    width:100%;}
-body{
-    border-spacing: 1em 0.5em;
-}
-.tt{
-    border-style:double;
-    background-color:rgb(165, 16, 16);
-    height: auto;
-    width: 800px;
-    align-self: center;
-    margin: auto;
-    border-color: black;
-    border-spacing: 100px;
-    border-bottom-style: groove;
-    border-width: thick 20px;
-    font-family: "Lucida Handwriting", cursive;
-}
-.day1{
-    border-style:outset;
-    border: 4cm;
-    background-color:rgb(255, 255, 255);
-    height: auto;
-    width: 800px;
-    align-self: center;
-    margin: auto;
-    color: rgba(0, 0, 0, 0);
-    border-spacing: 100px;
-    border-color: black;
-    font-family: "Courier New", monospace;
-}
-.day2{
-    border-style:dashed;
-    border: 4cm;
-    background-color:rgb(255, 255, 255);
-    height: auto;
-    width: 800px;
-    align-self: center;
-    margin: auto;
-    border-top-color: rgba(0, 0, 0, 0);
-    border-top: 10cm;
-    border-spacing: 100px;
-    border-color: black;
-    border-width: thick 10px;
-    font-family: "Courier New", monospace;
-}
-.imag{
-    border-style: groove;
-    border-color: black;
-    border-width: 10px;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    border-spacing: 100px;
+    min-height: 100vh;
+    width: 100%;
 }
 
-.rotate-images{
-    transform: rotate(90deg);
-    border: 4cm;
-    margin: auto;
-    border-style: groove;
-    border-color: black;
-    border-width: 10px;
-    border-radius: 10px;
-    height: auto;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tt {
+    border: 10px double black;
+    background-color: rgb(165, 16, 16);
     width: 800px;
-    align-self: center;
-    border-spacing: 100px;
+    margin: auto;
+    font-family: "Lucida Handwriting", cursive;
+    padding: 20px;
+}
+
+.day1, .day2 {
+    border: 4px solid black;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    margin: 20px auto;
+    font-family: "Courier New", monospace;
+    padding: 20px;
+}
+
+.day1 {
+    border-style: outset;
+}
+
+.day2 {
+    border-style: dashed;
+}
+
+.img {
+    border: 10px groove black;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.rotate-images {
+    transform: rotate(90deg);
+    border: 10px groove black;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
 }
