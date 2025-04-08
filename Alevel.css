@@ -31,7 +31,7 @@ body {
 }
 
 .day1 {
-    border-style: outset;
+    border-style: dashed;
 }
 
 .day2 {
@@ -40,6 +40,7 @@ body {
 
 .img {
     border: 10px groove black;
+     border-style: outset;
     border-radius: 10px;
     display: block;
     margin: 20px auto;
